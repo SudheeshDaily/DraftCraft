@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DraftCraft Network</title>
@@ -270,6 +272,9 @@
         </style>
 </head>
 <body>
+    <!--Discord Info Alert-->
+    
+    <!--Background-->
     <video autoplay muted loop id="myVideo">
         <source src="mc.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
@@ -293,7 +298,7 @@
         <div class="nav-links">
             <a href="#" onclick="showPage('home')">Home</a>
             <a href="#" onclick="showPage('about')">About</a>
-            <a href="https://store.draftcraft.xyz">Store</a>
+            <a href="https://store.draftcraft.xyz" target="_blank">Store</a>
             <a href="#" onclick="showPage('rules')">Rules</a>
             <a href="https://discord.gg/draftcraft" target="_blank">Discord</a>
         </div>
@@ -305,9 +310,9 @@
             <div class="sidebar-links">
                 <a href="#" onclick="showPage('home')" class="active">Home</a>
                 <a href="#" onclick="showPage('about')">About Us</a>
-                <a href="https://store.draftcraft.xyz">Store</a>
+                <a href="https://store.draftcraft.xyz" target="_blank">Store</a>
                 <a href="#" onclick="showPage('rules')">Rules</a>
-                <a href="#" onclick="showPage('news')">News</a>
+                <a href="#" onclick="showPage('news')">News<span class="w3-badge w3-red">  3</span></a>
                 <a href="https://discord.gg/draftcraft" target="_blank">Discord</a>
             </div>
         </div>
@@ -326,7 +331,11 @@
                 <div class="card">
                     <h2>Featured Content</h2>
                     <p>Join our thriving Minecraft community featuring custom plugins, regular events, and amazing rewards!</p>
+                    <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
+                        <p>Join our Discord server now to interact with our kind community and have fun!</p>
+                      </div>
                 </div>
+            
             </div>
 
             <!-- About Page -->
@@ -341,6 +350,11 @@
                         <li>Creative - Unleash your creativity</li>
                         <li>Factions - Build, raid, conquer</li>
                     </ul>
+                    <div class="w3-panel w3-leftbar w3-light-grey">
+                        <p class="w3-xlarge w3-serif"><i>"DraftCraft is better than Hypixel lol."</i></p>
+                        <p>Sun Tzu, The Art Of War</p>
+                      </div>
+                      
                 </div>
             </div>
 
@@ -397,10 +411,15 @@
                         <h3>New Skyblock Update</h3>
                         <p>Check out our latest features and improvements!</p>
                     </div>
+                    <div class="news-item">
+                        <h3>Do you keep losing games?</h3>
+                        <p>Don't worry, it's probably not skill issue. We recommend using Optifine for a smooth, lag free experience.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+ <!-- Credits -->
 
     <script>
         function showPage(pageId) {
@@ -432,7 +451,9 @@
        </style>
        </head>
        <body>
-           <div class="footer">All Rights Reserved. Copyright© 2024-2024 DraftCraft Network. Made by dweesh and cyrorayan@arch</div>
+       <div class="footer">All Rights Reserved. Copyright© 2024-2024 DraftCraft Network.</div>
        </body>
+       <!--Fake Comment Section-->
+       
 </body>
 </html>
