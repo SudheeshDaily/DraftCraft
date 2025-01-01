@@ -301,6 +301,7 @@
             <a href="https://store.draftcraft.xyz" target="_blank">Store</a>
             <a href="#" onclick="showPage('rules')">Rules</a>
             <a href="https://discord.gg/draftcraft" target="_blank">Discord</a>
+            <a href="#" onclick="showPage('vote')">Vote</a>
         </div>
     </nav>
 
@@ -342,7 +343,8 @@
             <div id="about" class="page">
                 <div class="card">
                     <h2>About DraftCraft Network</h2>
-                    <p>DraftCraft Network is a premium Minecraft server offering unique gameplay experiences.</p>
+                    <p>  DraftCraft is a premium Minecraft server renowned for its exceptional quality, innovative features, and vibrant community.
+                         Catering to both seasoned players and newcomers, DraftCraft offers a unique blend of gameplay experiences that set it apart from typical servers.</p>
                     <h3>Our Game Modes:</h3>
                     <ul>
                         <li>Survival - Enhanced vanilla experience</li>
@@ -395,7 +397,9 @@
                         <li>No spamming or excessive caps</li>
                         <li>No advertising other servers</li>
                         <li>No hacked clients or unauthorized mods</li>
+                        
                     </ul>
+                    <p>Read our terms and conditions to know whats allowed and whats not allowed <a href="terms_conditions.html" target="_blank">here</a>.</p>
                 </div>
             </div>
 
@@ -412,15 +416,56 @@
                         <p>Check out our latest features and improvements!</p>
                     </div>
                     <div class="news-item">
-                        <h3>Do you keep losing games?</h3>
+                        <h3>Lost a game?</h3>
                         <p>Don't worry, it's probably not skill issue. We recommend using Optifine for a smooth, lag free experience.</p>
                     </div>
                 </div>
             </div>
+         
+     
+    <!-- Vote Page -->
+     <style>
+        .button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+        .button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 8px;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+     </style>
+    <div id="vote" class="page">
+        <div class="card">
+            <h2>Vote for DraftCraft Network</h2>
+            <p>Support our server by voting on these platforms. Each vote helps us grow and rewards you with in-game perks!
+
+            </p>
+            <ul>
+           <li>  <button class="button button4"><a href="https://minecraft-serverlist.com/server/1664" target="_blank">Vote Link 1</a></button></li>
+           <li>   <button class="button button4"><a href="https://minecraft-serverlist.com/server/1664" target="_blank">Vote Link 2</a></button></li>
+           <li>  <button class="button button4"><a href="https://minecraft-serverlist.com/server/1664" target="_blank">Vote Link 3</a></button></li>
+           <li>  <button class="button button4"><a href="https://minecraft-serverlist.com/server/1664" target="_blank">Vote Link 4</a></button></li>
+           <li>  <button class="button button4"><a href="https://minecraft-serverlist.com/server/1664" target="_blank">Vote Link 5</a></button></li>
+           <li>  <button class="button button4"><a href="https://minecraft-serverlist.com/server/1664" target="_blank">Vote Link 6</a></button></li>
+           <li>  <button class="button button4"><a href="https://minecraft-serverlist.com/server/1664" target="_blank">Vote Link 7</a></button></li>
+            </ul>
+            </div>
         </div>
     </div>
- <!-- Credits -->
-
+</div>
     <script>
         function showPage(pageId) {
             // Hide all pages
